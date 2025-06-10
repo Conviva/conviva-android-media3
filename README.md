@@ -17,6 +17,9 @@ This module helps automate data collection from [Media3](https://github.com/andr
     
     implementation fileTree(dir: 'libs',include:['*.aar'])
 
+## Support Conviva Android Core SDK Version
+[Conviva Android CoreSDK v4.0.45 (or above)](https://github.com/Conviva/conviva-android-coresdk/releases/tag/v4.0.45)
+
 ## Support Android Version (minSdk)
   Android Lollipop (API level 21)
 
@@ -30,9 +33,6 @@ If you are using shrinkResources or minifyEnabled properties in the application 
 -keep, allowshrinking class com.conviva.** { *; }
 -dontwarn  com.google.android.exoplayer2.ExoPlayer.**, *
 ```
-
-## Support Conviva Android Core SDK Version
-[Conviva Android CoreSDK v4.0.45 (or above)](https://github.com/Conviva/conviva-android-coresdk/releases/tag/v4.0.45)
 
 ## Note:  
 
