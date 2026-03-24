@@ -24,6 +24,7 @@ This module helps automate data collection from [Media3](https://github.com/andr
   Android Lollipop (API level 21)
 
 ## Support Media3 ExoPlayer SDK Version    
+  Media3 ExoPlayer 1.9.2 (or below)<br>
   Media3 ExoPlayer 1.6.1 (or below)
 
 ## ProGuard rules
@@ -31,7 +32,7 @@ If you are using shrinkResources or minifyEnabled properties in the application 
 ```
 -keep class com.conviva.playerinterface.** { *; }
 -keep, allowshrinking class com.conviva.** { *; }
--dontwarn  com.google.android.exoplayer2.ExoPlayer.**, *
+-dontwarn  androidx.media3.exoplayer.**, *
 ```
 
 ## Stop Auto-Reporting Errors from ExoPlayer and Media3 Modules  
