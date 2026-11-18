@@ -24,8 +24,9 @@ This module helps automate data collection from [Media3](https://github.com/andr
   Android Lollipop (API level 21)
 
 ## Support Media3 ExoPlayer SDK Version    
-  Media3 ExoPlayer 1.9.2 (or below)<br>
-  Media3 ExoPlayer 1.6.1 (or below)
+  Media3 ExoPlayer 1.11.1 (or below)<br>
+  Media3 ExoPlayer 1.9.2<br>
+  Media3 ExoPlayer 1.6.1
 
 ## ProGuard rules
 If you are using shrinkResources or minifyEnabled properties in the application to optimize the size of the APK file, then add the following in ProGuard rules:
